@@ -1,0 +1,87 @@
+.landing-bg {
+    background-image: url('../src/asserts/background/landingbgHome.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.signup-signin-bg {
+    background-image: url('../src/asserts/background/landingBg1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.transparent-bg {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: white;
+}
+
+.dark-blue-bg {
+    background: #302b63;
+    color: white;
+}
+
+.bg-blue-pattern {
+    background-image: url('./asserts/background/bgPatternExaminer.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.exam-card-width {
+    width: 45%;
+}
+
+.student-card-width {
+    width: 400px;
+}
+
+.dashboard-width {
+    width: 75%;
+}
+
+.student-exam-card-btn {
+    padding: 3px 6px;
+    font-size: 12px;
+    background-color: rgba(50, 190, 218, 0.808);
+    border: 2px solid rgb(83, 189, 255);
+    border-radius: 5px;
+    color: white;
+    position: absolute;
+    top: 8px;
+    right: 6px;
+    font: bold;
+}
+
+@media screen and (max-width: 1072px) {
+    .exam-card-width {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 706px) {
+    .exam-card-width {
+        width: 80%;
+    }
+
+    .dashboard-width {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 473px) {
+    .student-card-width {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .dashboard-width {
+        width: 100%;
+    }
+
+    .dashboard-content {
+        margin: 0 8px;
+    }
+}
